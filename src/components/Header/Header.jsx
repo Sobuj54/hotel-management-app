@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="py-10 px-4 container mx-auto text-lg flex flex-wrap md:flex-nowrap items-center justify-between">
       <div className="flex items-center w-full md:w-2/3">
-        <Link href="/" className="font-black text-xl text-tertiary-light">
+        <Link href="/" className="font-black text-xl text-tertiary-dark">
           SuiteMart
         </Link>
 
