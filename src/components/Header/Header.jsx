@@ -1,5 +1,5 @@
 "use client";
-import ThemeContext from "@/context/themeContext";
+import ThemeContext from "@/context/ThemeContext";
 import Link from "next/link";
 import { useContext } from "react";
 import { FaUserCircle } from "react-icons/fa";
@@ -21,7 +21,7 @@ const Header = () => {
               <FaUserCircle className="cursor-pointer" />
             </Link>
           </li>
-          <li className="ml-2">
+          <li className="ml-3">
             {darkTheme ? (
               <MdOutlineLightMode
                 className="cursor-pointer"
